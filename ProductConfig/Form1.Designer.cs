@@ -159,7 +159,7 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Image = global::ProductConfig.Properties.Resources.Telo;
+            this.pictureBox10.Image = global::ProductConfig.Properties.Resources.Es_Telo;
             this.pictureBox10.Location = new System.Drawing.Point(624, 118);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(286, 119);
@@ -222,7 +222,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::ProductConfig.Properties.Resources.Volante;
+            this.pictureBox8.Image = global::ProductConfig.Properties.Resources.In_Volante;
             this.pictureBox8.Location = new System.Drawing.Point(34, 344);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(196, 185);
