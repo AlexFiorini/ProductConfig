@@ -32,6 +32,20 @@
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -46,22 +60,13 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -69,11 +74,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // saveFileDialog
@@ -113,6 +113,166 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(93, 76);
             this.panel3.TabIndex = 9;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.checkedListBox2);
+            this.panel4.Controls.Add(this.label9);
+            this.panel4.Controls.Add(this.pictureBox10);
+            this.panel4.Controls.Add(this.label8);
+            this.panel4.Controls.Add(this.checkBox1);
+            this.panel4.Controls.Add(this.pictureBox9);
+            this.panel4.Controls.Add(this.comboBox2);
+            this.panel4.Controls.Add(this.label7);
+            this.panel4.Location = new System.Drawing.Point(755, 32);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(244, 135);
+            this.panel4.TabIndex = 6;
+            // 
+            // checkedListBox2
+            // 
+            this.checkedListBox2.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkedListBox2.FormattingEnabled = true;
+            this.checkedListBox2.Items.AddRange(new object[] {
+            "Cerchi in lega leggera da 19\'\', grigio platino.  Di serie",
+            "Cerchi in lega leggera da 19\'\', con inserti in nero.  370,00 EUR",
+            "Cerchi in lega leggera da 20\'\', design a 5 razze \"Aeromodul\", Nero, torniti lucid" +
+                "i.  2120,00 EUR",
+            "Cerchi in lega leggera da 21\'\', design a 5 razze doppie a modulo concavo, Nero.  " +
+                "4130,00 EUR",
+            "Cerchi in lega leggera da 21\'\',design a 5 razze doppie a modulo concavo, Nero con" +
+                " stampa grafica.  4230,00 EUR"});
+            this.checkedListBox2.Location = new System.Drawing.Point(54, 298);
+            this.checkedListBox2.Name = "checkedListBox2";
+            this.checkedListBox2.Size = new System.Drawing.Size(672, 89);
+            this.checkedListBox2.TabIndex = 7;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.Location = new System.Drawing.Point(54, 276);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(58, 19);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "Cerchi";
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Image = global::ProductConfig.Properties.Resources.Telo;
+            this.pictureBox10.Location = new System.Drawing.Point(624, 118);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(286, 119);
+            this.pictureBox10.TabIndex = 5;
+            this.pictureBox10.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(853, 83);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(87, 15);
+            this.label8.TabIndex = 4;
+            this.label8.Text = "723,00 EUR";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkBox1.Location = new System.Drawing.Point(624, 82);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(237, 19);
+            this.checkBox1.TabIndex = 3;
+            this.checkBox1.Text = "Telo vettura, con design Camouflage ";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Location = new System.Drawing.Point(246, 55);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(278, 198);
+            this.pictureBox9.TabIndex = 2;
+            this.pictureBox9.TabStop = false;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Bianco ibis 0,0 EUR",
+            "Nero Mythos metalizzato 1270,00 EUR",
+            "Rosso Tango metalizzato 1270,00 EUR",
+            "Grigio Daytona perla 1270,00 EUR",
+            "Blu Sepang effeto perla 5310,00 EUR"});
+            this.comboBox2.Location = new System.Drawing.Point(54, 53);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 23);
+            this.comboBox2.TabIndex = 1;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Location = new System.Drawing.Point(54, 26);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(149, 19);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Colori carrozzeria";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::ProductConfig.Properties.Resources.Volante;
+            this.pictureBox8.Location = new System.Drawing.Point(34, 344);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(196, 185);
+            this.pictureBox8.TabIndex = 5;
+            this.pictureBox8.TabStop = false;
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "Volante in pelle con profilo sportivo a 3 razze multifunzione plus con bilancieri" +
+                ", appiattito nella parte inferiore.  Di serie",
+            "Volante in pelle con profilo sportivo a 3 razze, multifunzione plus, riscaldato, " +
+                "con bilancieri, appiattito nella parte inferiore.  230,00 EUR"});
+            this.checkedListBox1.Location = new System.Drawing.Point(34, 286);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(804, 38);
+            this.checkedListBox1.TabIndex = 4;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(34, 264);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 19);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Volanti";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Pacchetto Design Marrone Cognac-Grigio Jet Audi exclusive   8250,00 EUR",
+            "Pacchetto cuciture Audi exclusive   2200,00 EUR",
+            "Pacchetto Design Bicolor Audi exclusive\t11260,00 EUR"});
+            this.comboBox1.Location = new System.Drawing.Point(34, 70);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(126, 23);
+            this.comboBox1.TabIndex = 2;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(238, 70);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(329, 176);
+            this.pictureBox7.TabIndex = 1;
+            this.pictureBox7.TabStop = false;
             // 
             // label5
             // 
@@ -174,7 +334,7 @@
             this.panel2.Controls.Add(this.pictureBox4);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Location = new System.Drawing.Point(3, 435);
+            this.panel2.Location = new System.Drawing.Point(18, 440);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1053, 103);
             this.panel2.TabIndex = 8;
@@ -256,166 +416,6 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(238, 70);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(329, 176);
-            this.pictureBox7.TabIndex = 1;
-            this.pictureBox7.TabStop = false;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Pacchetto Design Marrone Cognac-Grigio Jet Audi exclusive   8250,00 EUR",
-            "Pacchetto cuciture Audi exclusive   2200,00 EUR",
-            "Pacchetto Design Bicolor Audi exclusive\t11260,00 EUR"});
-            this.comboBox1.Location = new System.Drawing.Point(34, 70);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(126, 23);
-            this.comboBox1.TabIndex = 2;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(34, 264);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 19);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "Volanti";
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "Volante in pelle con profilo sportivo a 3 razze multifunzione plus con bilancieri" +
-                ", appiattito nella parte inferiore.  Di serie",
-            "Volante in pelle con profilo sportivo a 3 razze, multifunzione plus, riscaldato, " +
-                "con bilancieri, appiattito nella parte inferiore.  230,00 EUR"});
-            this.checkedListBox1.Location = new System.Drawing.Point(34, 286);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(804, 38);
-            this.checkedListBox1.TabIndex = 4;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::ProductConfig.Properties.Resources.Volante;
-            this.pictureBox8.Location = new System.Drawing.Point(34, 344);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(196, 185);
-            this.pictureBox8.TabIndex = 5;
-            this.pictureBox8.TabStop = false;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.checkedListBox2);
-            this.panel4.Controls.Add(this.label9);
-            this.panel4.Controls.Add(this.pictureBox10);
-            this.panel4.Controls.Add(this.label8);
-            this.panel4.Controls.Add(this.checkBox1);
-            this.panel4.Controls.Add(this.pictureBox9);
-            this.panel4.Controls.Add(this.comboBox2);
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Location = new System.Drawing.Point(755, 32);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(244, 135);
-            this.panel4.TabIndex = 6;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(54, 26);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(149, 19);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Colori carrozzeria";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Bianco ibis 0,0 EUR",
-            "Nero Mythos metalizzato 1270,00 EUR",
-            "Rosso Tango metalizzato 1270,00 EUR",
-            "Grigio Daytona perla 1270,00 EUR",
-            "Blu Sepang effeto perla 5310,00 EUR"});
-            this.comboBox2.Location = new System.Drawing.Point(54, 53);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 23);
-            this.comboBox2.TabIndex = 1;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Location = new System.Drawing.Point(246, 55);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(278, 198);
-            this.pictureBox9.TabIndex = 2;
-            this.pictureBox9.TabStop = false;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox1.Location = new System.Drawing.Point(624, 82);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(237, 19);
-            this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "Telo vettura, con design Camouflage ";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(853, 83);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(87, 15);
-            this.label8.TabIndex = 4;
-            this.label8.Text = "723,00 EUR";
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::ProductConfig.Properties.Resources.Telo;
-            this.pictureBox10.Location = new System.Drawing.Point(624, 118);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(286, 119);
-            this.pictureBox10.TabIndex = 5;
-            this.pictureBox10.TabStop = false;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(54, 276);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 19);
-            this.label9.TabIndex = 6;
-            this.label9.Text = "Cerchi";
-            // 
-            // checkedListBox2
-            // 
-            this.checkedListBox2.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkedListBox2.FormattingEnabled = true;
-            this.checkedListBox2.Items.AddRange(new object[] {
-            "Cerchi in lega leggera da 19\'\', grigio platino.  Di serie",
-            "Cerchi in lega leggera da 19\'\', con inserti in nero.  370,00 EUR",
-            "Cerchi in lega leggera da 20\'\', design a 5 razze \"Aeromodul\", Nero, torniti lucid" +
-                "i.  2120,00 EUR",
-            "Cerchi in lega leggera da 21\'\', design a 5 razze doppie a modulo concavo, Nero.  " +
-                "4130,00 EUR",
-            "Cerchi in lega leggera da 21\'\',design a 5 razze doppie a modulo concavo, Nero con" +
-                " stampa grafica.  4230,00 EUR"});
-            this.checkedListBox2.Location = new System.Drawing.Point(54, 298);
-            this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(672, 89);
-            this.checkedListBox2.TabIndex = 7;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -428,6 +428,12 @@
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
@@ -436,12 +442,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
         }
