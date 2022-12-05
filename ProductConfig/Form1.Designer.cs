@@ -30,8 +30,8 @@
         {
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.Menu = new System.Windows.Forms.Panel();
+            this.Conf_interni = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -45,31 +45,31 @@
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label6 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.F_interni = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.Caratteristiche = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Menu.SuspendLayout();
+            this.Conf_interni.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F_interni)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
+            this.Caratteristiche.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -86,33 +86,35 @@
             // 
             this.openFileDialog.FileName = "openFileDialog";
             // 
-            // panel1
+            // Menu
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Location = new System.Drawing.Point(-6, -6);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1108, 584);
-            this.panel1.TabIndex = 2;
+            this.Menu.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Menu.Controls.Add(this.Conf_interni);
+            this.Menu.Controls.Add(this.button2);
+            this.Menu.Controls.Add(this.pictureBox2);
+            this.Menu.Controls.Add(this.pictureBox1);
+            this.Menu.Controls.Add(this.button1);
+            this.Menu.Controls.Add(this.Caratteristiche);
+            this.Menu.Location = new System.Drawing.Point(-7, -8);
+            this.Menu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Menu.Name = "Menu";
+            this.Menu.Size = new System.Drawing.Size(1266, 779);
+            this.Menu.TabIndex = 2;
             // 
-            // panel3
+            // Conf_interni
             // 
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Controls.Add(this.pictureBox8);
-            this.panel3.Controls.Add(this.checkedListBox1);
-            this.panel3.Controls.Add(this.label6);
-            this.panel3.Controls.Add(this.comboBox1);
-            this.panel3.Controls.Add(this.pictureBox7);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Location = new System.Drawing.Point(950, 35);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(93, 76);
-            this.panel3.TabIndex = 9;
+            this.Conf_interni.Controls.Add(this.panel4);
+            this.Conf_interni.Controls.Add(this.pictureBox8);
+            this.Conf_interni.Controls.Add(this.checkedListBox1);
+            this.Conf_interni.Controls.Add(this.label6);
+            this.Conf_interni.Controls.Add(this.comboBox1);
+            this.Conf_interni.Controls.Add(this.F_interni);
+            this.Conf_interni.Controls.Add(this.label5);
+            this.Conf_interni.Location = new System.Drawing.Point(19, 20);
+            this.Conf_interni.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Conf_interni.Name = "Conf_interni";
+            this.Conf_interni.Size = new System.Drawing.Size(1218, 737);
+            this.Conf_interni.TabIndex = 9;
             // 
             // panel4
             // 
@@ -124,9 +126,10 @@
             this.panel4.Controls.Add(this.pictureBox9);
             this.panel4.Controls.Add(this.comboBox2);
             this.panel4.Controls.Add(this.label7);
-            this.panel4.Location = new System.Drawing.Point(755, 32);
+            this.panel4.Location = new System.Drawing.Point(909, 526);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(244, 135);
+            this.panel4.Size = new System.Drawing.Size(279, 180);
             this.panel4.TabIndex = 6;
             // 
             // checkedListBox2
@@ -142,27 +145,29 @@
                 "4130,00 EUR",
             "Cerchi in lega leggera da 21\'\',design a 5 razze doppie a modulo concavo, Nero con" +
                 " stampa grafica.  4230,00 EUR"});
-            this.checkedListBox2.Location = new System.Drawing.Point(54, 298);
+            this.checkedListBox2.Location = new System.Drawing.Point(62, 397);
+            this.checkedListBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(672, 89);
+            this.checkedListBox2.Size = new System.Drawing.Size(767, 109);
             this.checkedListBox2.TabIndex = 7;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(54, 276);
+            this.label9.Location = new System.Drawing.Point(62, 368);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 19);
+            this.label9.Size = new System.Drawing.Size(70, 23);
             this.label9.TabIndex = 6;
             this.label9.Text = "Cerchi";
             // 
             // pictureBox10
             // 
             this.pictureBox10.Image = global::ProductConfig.Properties.Resources.Es_Telo;
-            this.pictureBox10.Location = new System.Drawing.Point(624, 118);
+            this.pictureBox10.Location = new System.Drawing.Point(713, 157);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(286, 119);
+            this.pictureBox10.Size = new System.Drawing.Size(327, 159);
             this.pictureBox10.TabIndex = 5;
             this.pictureBox10.TabStop = false;
             // 
@@ -170,9 +175,9 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(853, 83);
+            this.label8.Location = new System.Drawing.Point(975, 111);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(87, 15);
+            this.label8.Size = new System.Drawing.Size(107, 19);
             this.label8.TabIndex = 4;
             this.label8.Text = "723,00 EUR";
             // 
@@ -180,18 +185,20 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox1.Location = new System.Drawing.Point(624, 82);
+            this.checkBox1.Location = new System.Drawing.Point(713, 109);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(237, 19);
+            this.checkBox1.Size = new System.Drawing.Size(291, 23);
             this.checkBox1.TabIndex = 3;
             this.checkBox1.Text = "Telo vettura, con design Camouflage ";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(246, 55);
+            this.pictureBox9.Location = new System.Drawing.Point(281, 73);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(278, 198);
+            this.pictureBox9.Size = new System.Drawing.Size(318, 264);
             this.pictureBox9.TabIndex = 2;
             this.pictureBox9.TabStop = false;
             // 
@@ -205,32 +212,36 @@
             "Rosso Tango metalizzato 1270,00 EUR",
             "Grigio Daytona perla 1270,00 EUR",
             "Blu Sepang effeto perla 5310,00 EUR"});
-            this.comboBox2.Location = new System.Drawing.Point(54, 53);
+            this.comboBox2.Location = new System.Drawing.Point(62, 71);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 23);
+            this.comboBox2.Size = new System.Drawing.Size(138, 27);
             this.comboBox2.TabIndex = 1;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(54, 26);
+            this.label7.Location = new System.Drawing.Point(62, 35);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(149, 19);
+            this.label7.Size = new System.Drawing.Size(182, 23);
             this.label7.TabIndex = 0;
             this.label7.Text = "Colori carrozzeria";
             // 
             // pictureBox8
             // 
+            this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox8.Image = global::ProductConfig.Properties.Resources.In_Volante;
-            this.pictureBox8.Location = new System.Drawing.Point(34, 344);
+            this.pictureBox8.Location = new System.Drawing.Point(39, 459);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(196, 185);
+            this.pictureBox8.Size = new System.Drawing.Size(224, 247);
             this.pictureBox8.TabIndex = 5;
             this.pictureBox8.TabStop = false;
             // 
             // checkedListBox1
             // 
+            this.checkedListBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkedListBox1.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
@@ -238,58 +249,68 @@
                 ", appiattito nella parte inferiore.  Di serie",
             "Volante in pelle con profilo sportivo a 3 razze, multifunzione plus, riscaldato, " +
                 "con bilancieri, appiattito nella parte inferiore.  230,00 EUR"});
-            this.checkedListBox1.Location = new System.Drawing.Point(34, 286);
+            this.checkedListBox1.Location = new System.Drawing.Point(39, 381);
+            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(804, 38);
+            this.checkedListBox1.Size = new System.Drawing.Size(918, 46);
             this.checkedListBox1.TabIndex = 4;
             // 
             // label6
             // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(34, 264);
+            this.label6.Location = new System.Drawing.Point(39, 352);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 19);
+            this.label6.Size = new System.Drawing.Size(79, 23);
             this.label6.TabIndex = 3;
             this.label6.Text = "Volanti";
             // 
             // comboBox1
             // 
+            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBox1.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Pacchetto Design Marrone Cognac-Grigio Jet Audi exclusive   8250,00 EUR",
-            "Pacchetto cuciture Audi exclusive   2200,00 EUR",
-            "Pacchetto Design Bicolor Audi exclusive\t11260,00 EUR"});
-            this.comboBox1.Location = new System.Drawing.Point(34, 70);
+            "Pacchetto cuciture Audi exclusive -- 2200,00 EUR",
+            "Pacchetto Design Bicolor Audi exclusive -- 11260,00 EUR",
+            "Pacchetto Design Marrone Cognac-Grigio Jet Audi exclusive -- 8250,00 EUR"});
+            this.comboBox1.Location = new System.Drawing.Point(39, 93);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(126, 23);
+            this.comboBox1.Size = new System.Drawing.Size(479, 27);
             this.comboBox1.TabIndex = 2;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // pictureBox7
+            // F_interni
             // 
-            this.pictureBox7.Location = new System.Drawing.Point(238, 70);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(329, 176);
-            this.pictureBox7.TabIndex = 1;
-            this.pictureBox7.TabStop = false;
+            this.F_interni.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.F_interni.Location = new System.Drawing.Point(617, 88);
+            this.F_interni.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.F_interni.Name = "F_interni";
+            this.F_interni.Size = new System.Drawing.Size(469, 235);
+            this.F_interni.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.F_interni.TabIndex = 1;
+            this.F_interni.TabStop = false;
             // 
             // label5
             // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(34, 32);
+            this.label5.Location = new System.Drawing.Point(39, 43);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(179, 19);
+            this.label5.Size = new System.Drawing.Size(216, 23);
             this.label5.TabIndex = 0;
             this.label5.Text = "Audi exclusive design";
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(451, 386);
+            this.button2.Location = new System.Drawing.Point(515, 515);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 30);
+            this.button2.Size = new System.Drawing.Size(229, 40);
             this.button2.TabIndex = 7;
             this.button2.Text = "Caratteristiche e-tron GT";
             this.button2.UseVisualStyleBackColor = true;
@@ -298,64 +319,69 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ProductConfig.Properties.Resources.Audi_Logo;
-            this.pictureBox2.Location = new System.Drawing.Point(25, 15);
+            this.pictureBox2.Location = new System.Drawing.Point(21, 20);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(155, 78);
+            this.pictureBox2.Size = new System.Drawing.Size(153, 83);
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ProductConfig.Properties.Resources.audi_etron_gt2x;
-            this.pictureBox1.Location = new System.Drawing.Point(312, 81);
+            this.pictureBox1.Location = new System.Drawing.Point(357, 108);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(478, 244);
+            this.pictureBox1.Size = new System.Drawing.Size(546, 325);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(451, 334);
+            this.button1.Location = new System.Drawing.Point(515, 445);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 35);
+            this.button1.Size = new System.Drawing.Size(229, 47);
             this.button1.TabIndex = 4;
             this.button1.Text = "Configurazione e-tron GT";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // panel2
+            // Caratteristiche
             // 
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.pictureBox6);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.pictureBox5);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.pictureBox4);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.pictureBox3);
-            this.panel2.Location = new System.Drawing.Point(18, 440);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1053, 103);
-            this.panel2.TabIndex = 8;
-            this.panel2.Visible = false;
+            this.Caratteristiche.Controls.Add(this.label4);
+            this.Caratteristiche.Controls.Add(this.pictureBox6);
+            this.Caratteristiche.Controls.Add(this.label3);
+            this.Caratteristiche.Controls.Add(this.pictureBox5);
+            this.Caratteristiche.Controls.Add(this.label2);
+            this.Caratteristiche.Controls.Add(this.pictureBox4);
+            this.Caratteristiche.Controls.Add(this.pictureBox3);
+            this.Caratteristiche.Controls.Add(this.label1);
+            this.Caratteristiche.Location = new System.Drawing.Point(21, 587);
+            this.Caratteristiche.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Caratteristiche.Name = "Caratteristiche";
+            this.Caratteristiche.Size = new System.Drawing.Size(1203, 137);
+            this.Caratteristiche.TabIndex = 8;
+            this.Caratteristiche.Visible = false;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(827, 57);
+            this.label4.Location = new System.Drawing.Point(957, 71);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 16);
+            this.label4.Size = new System.Drawing.Size(74, 21);
             this.label4.TabIndex = 7;
             this.label4.Text = "350 kW";
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::ProductConfig.Properties.Resources.speed;
-            this.pictureBox6.Location = new System.Drawing.Point(791, 57);
+            this.pictureBox6.Location = new System.Drawing.Point(925, 70);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(30, 26);
+            this.pictureBox6.Size = new System.Drawing.Size(26, 27);
             this.pictureBox6.TabIndex = 6;
             this.pictureBox6.TabStop = false;
             // 
@@ -363,18 +389,19 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(574, 57);
+            this.label3.Location = new System.Drawing.Point(644, 71);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(153, 16);
+            this.label3.Size = new System.Drawing.Size(206, 21);
             this.label3.TabIndex = 5;
             this.label3.Text = "21,6–19,7 kWh/100 km";
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::ProductConfig.Properties.Resources.fuel;
-            this.pictureBox5.Location = new System.Drawing.Point(543, 57);
+            this.pictureBox5.Location = new System.Drawing.Point(602, 71);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox5.Size = new System.Drawing.Size(24, 26);
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
             // 
@@ -382,62 +409,63 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(391, 57);
+            this.label2.Location = new System.Drawing.Point(431, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 16);
+            this.label2.Size = new System.Drawing.Size(85, 21);
             this.label2.TabIndex = 3;
             this.label2.Text = "0-0 g/km";
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::ProductConfig.Properties.Resources.emissions;
-            this.pictureBox4.Location = new System.Drawing.Point(357, 57);
+            this.pictureBox4.Location = new System.Drawing.Point(387, 70);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(28, 25);
+            this.pictureBox4.Size = new System.Drawing.Size(26, 27);
             this.pictureBox4.TabIndex = 2;
             this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::ProductConfig.Properties.Resources.timer;
+            this.pictureBox3.Location = new System.Drawing.Point(160, 70);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(24, 27);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(183, 57);
+            this.label1.Location = new System.Drawing.Point(208, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 16);
+            this.label1.Size = new System.Drawing.Size(101, 21);
             this.label1.TabIndex = 1;
             this.label1.Text = "4,1 secondi";
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::ProductConfig.Properties.Resources.timer;
-            this.pictureBox3.Location = new System.Drawing.Point(151, 57);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(26, 25);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1087, 562);
-            this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ClientSize = new System.Drawing.Size(1242, 749);
+            this.Controls.Add(this.Menu);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.panel1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.Menu.ResumeLayout(false);
+            this.Conf_interni.ResumeLayout(false);
+            this.Conf_interni.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F_interni)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.Caratteristiche.ResumeLayout(false);
+            this.Caratteristiche.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -450,11 +478,11 @@
 
         private SaveFileDialog saveFileDialog;
         private OpenFileDialog openFileDialog;
-        private Panel panel1;
+        private Panel Menu;
         private Button button1;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
-        private Panel panel2;
+        private Panel Caratteristiche;
         private Button button2;
         private PictureBox pictureBox3;
         private Label label4;
@@ -464,12 +492,12 @@
         private Label label2;
         private PictureBox pictureBox4;
         private Label label1;
-        private Panel panel3;
+        private Panel Conf_interni;
         private Label label5;
         private CheckedListBox checkedListBox1;
         private Label label6;
         private ComboBox comboBox1;
-        private PictureBox pictureBox7;
+        private PictureBox F_interni;
         private PictureBox pictureBox8;
         private Panel panel4;
         private Label label8;
