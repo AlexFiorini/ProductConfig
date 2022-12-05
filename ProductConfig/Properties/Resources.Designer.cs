@@ -83,6 +83,56 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap C_19_1 {
+            get {
+                object obj = ResourceManager.GetObject("C_19_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap C_19_2 {
+            get {
+                object obj = ResourceManager.GetObject("C_19_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap C_20 {
+            get {
+                object obj = ResourceManager.GetObject("C_20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap C_21_1 {
+            get {
+                object obj = ResourceManager.GetObject("C_21_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap C_21_2 {
+            get {
+                object obj = ResourceManager.GetObject("C_21_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap emissions {
             get {
                 object obj = ResourceManager.GetObject("emissions", resourceCulture);
@@ -163,16 +213,6 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hp {
-            get {
-                object obj = ResourceManager.GetObject("hp", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap In_Azzurro {
             get {
                 object obj = ResourceManager.GetObject("In_Azzurro", resourceCulture);
@@ -203,9 +243,19 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap In_Volante {
+        internal static System.Drawing.Bitmap In_Volante_1 {
             get {
-                object obj = ResourceManager.GetObject("In_Volante", resourceCulture);
+                object obj = ResourceManager.GetObject("In_Volante_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap In_Volante_2 {
+            get {
+                object obj = ResourceManager.GetObject("In_Volante_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

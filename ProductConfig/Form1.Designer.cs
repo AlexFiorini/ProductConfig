@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.Menu = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Dettagli = new System.Windows.Forms.Button();
+            this.Logo = new System.Windows.Forms.PictureBox();
+            this.Audi_e_tron = new System.Windows.Forms.PictureBox();
+            this.Inizia = new System.Windows.Forms.Button();
             this.Caratteristiche = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.Potenza = new System.Windows.Forms.PictureBox();
@@ -43,34 +43,36 @@
             this.Accelerazione = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Conf_interni = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.comboVolanti = new System.Windows.Forms.ComboBox();
+            this.Vai_a_Conf_esterni = new System.Windows.Forms.Button();
+            this.F_volante = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboInterni = new System.Windows.Forms.ComboBox();
             this.F_interni = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.Conf_esterni = new System.Windows.Forms.Panel();
+            this.F_cerchi = new System.Windows.Forms.PictureBox();
             this.comboCerchi = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.F_telo = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkTelo = new System.Windows.Forms.CheckBox();
             this.F_esterni = new System.Windows.Forms.PictureBox();
             this.comboColoCarr = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.Menu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Audi_e_tron)).BeginInit();
             this.Caratteristiche.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Potenza)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Consumi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Emissioni)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Accelerazione)).BeginInit();
             this.Conf_interni.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F_volante)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_interni)).BeginInit();
             this.Conf_esterni.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.F_cerchi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_telo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_esterni)).BeginInit();
             this.SuspendLayout();
@@ -78,60 +80,60 @@
             // Menu
             // 
             this.Menu.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Menu.Controls.Add(this.button2);
-            this.Menu.Controls.Add(this.pictureBox2);
-            this.Menu.Controls.Add(this.pictureBox1);
-            this.Menu.Controls.Add(this.button1);
+            this.Menu.Controls.Add(this.Dettagli);
+            this.Menu.Controls.Add(this.Logo);
+            this.Menu.Controls.Add(this.Audi_e_tron);
+            this.Menu.Controls.Add(this.Inizia);
             this.Menu.Controls.Add(this.Caratteristiche);
-            this.Menu.Location = new System.Drawing.Point(1108, 725);
+            this.Menu.Location = new System.Drawing.Point(1111, 725);
             this.Menu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Menu.Name = "Menu";
-            this.Menu.Size = new System.Drawing.Size(29, 22);
+            this.Menu.Size = new System.Drawing.Size(20, 22);
             this.Menu.TabIndex = 2;
             // 
-            // button2
+            // Dettagli
             // 
-            this.button2.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(515, 515);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(229, 40);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Caratteristiche e-tron GT";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Dettagli.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Dettagli.Location = new System.Drawing.Point(515, 515);
+            this.Dettagli.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Dettagli.Name = "Dettagli";
+            this.Dettagli.Size = new System.Drawing.Size(229, 40);
+            this.Dettagli.TabIndex = 7;
+            this.Dettagli.Text = "Caratteristiche e-tron GT";
+            this.Dettagli.UseVisualStyleBackColor = true;
+            this.Dettagli.Click += new System.EventHandler(this.Dettagli_Click);
             // 
-            // pictureBox2
+            // Logo
             // 
-            this.pictureBox2.Image = global::ProductConfig.Properties.Resources.Audi_Logo;
-            this.pictureBox2.Location = new System.Drawing.Point(561, 4);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(153, 83);
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
+            this.Logo.Image = global::ProductConfig.Properties.Resources.Audi_Logo;
+            this.Logo.Location = new System.Drawing.Point(561, 4);
+            this.Logo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Logo.Name = "Logo";
+            this.Logo.Size = new System.Drawing.Size(153, 83);
+            this.Logo.TabIndex = 6;
+            this.Logo.TabStop = false;
             // 
-            // pictureBox1
+            // Audi_e_tron
             // 
-            this.pictureBox1.Image = global::ProductConfig.Properties.Resources.audi_etron_gt2x;
-            this.pictureBox1.Location = new System.Drawing.Point(396, 134);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(475, 235);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            this.Audi_e_tron.Image = global::ProductConfig.Properties.Resources.audi_etron_gt2x;
+            this.Audi_e_tron.Location = new System.Drawing.Point(396, 134);
+            this.Audi_e_tron.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Audi_e_tron.Name = "Audi_e_tron";
+            this.Audi_e_tron.Size = new System.Drawing.Size(475, 235);
+            this.Audi_e_tron.TabIndex = 5;
+            this.Audi_e_tron.TabStop = false;
             // 
-            // button1
+            // Inizia
             // 
-            this.button1.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(515, 445);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(229, 47);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Configurazione e-tron GT";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.Inizia.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Inizia.Location = new System.Drawing.Point(515, 445);
+            this.Inizia.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Inizia.Name = "Inizia";
+            this.Inizia.Size = new System.Drawing.Size(229, 47);
+            this.Inizia.TabIndex = 4;
+            this.Inizia.Text = "Configurazione e-tron GT";
+            this.Inizia.UseVisualStyleBackColor = true;
+            this.Inizia.Click += new System.EventHandler(this.Inizia_Click);
             // 
             // Caratteristiche
             // 
@@ -237,73 +239,87 @@
             // Conf_interni
             // 
             this.Conf_interni.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Conf_interni.Controls.Add(this.comboBox2);
-            this.Conf_interni.Controls.Add(this.button3);
-            this.Conf_interni.Controls.Add(this.pictureBox8);
+            this.Conf_interni.Controls.Add(this.comboVolanti);
+            this.Conf_interni.Controls.Add(this.Vai_a_Conf_esterni);
+            this.Conf_interni.Controls.Add(this.F_volante);
             this.Conf_interni.Controls.Add(this.label6);
-            this.Conf_interni.Controls.Add(this.comboBox1);
+            this.Conf_interni.Controls.Add(this.comboInterni);
             this.Conf_interni.Controls.Add(this.F_interni);
             this.Conf_interni.Controls.Add(this.label5);
-            this.Conf_interni.Location = new System.Drawing.Point(1156, 710);
+            this.Conf_interni.Location = new System.Drawing.Point(1156, 725);
             this.Conf_interni.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Conf_interni.Name = "Conf_interni";
-            this.Conf_interni.Size = new System.Drawing.Size(34, 37);
+            this.Conf_interni.Size = new System.Drawing.Size(21, 24);
             this.Conf_interni.TabIndex = 9;
             // 
-            // button3
+            // comboVolanti
             // 
-            this.button3.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(995, 659);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(229, 47);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Prosegui";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.comboVolanti.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboVolanti.FormattingEnabled = true;
+            this.comboVolanti.Items.AddRange(new object[] {
+            "Volante in pelle con profilo sportivo a 3 razze multifunzione plus con bilancieri" +
+                ", appiattito nella parte inferiore.  Di serie",
+            "Volante in pelle con profilo sportivo a 3 razze, multifunzione plus, riscaldato, " +
+                "con bilancieri, appiattito nella parte inferiore.  230,00 EUR"});
+            this.comboVolanti.Location = new System.Drawing.Point(47, 399);
+            this.comboVolanti.Name = "comboVolanti";
+            this.comboVolanti.Size = new System.Drawing.Size(1001, 27);
+            this.comboVolanti.TabIndex = 8;
+            this.comboVolanti.SelectedIndexChanged += new System.EventHandler(this.comboVolanti_SelectedIndexChanged);
             // 
-            // pictureBox8
+            // Vai_a_Conf_esterni
             // 
-            this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox8.Image = global::ProductConfig.Properties.Resources.In_Volante;
-            this.pictureBox8.Location = new System.Drawing.Point(-158, 444);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(224, 247);
-            this.pictureBox8.TabIndex = 5;
-            this.pictureBox8.TabStop = false;
+            this.Vai_a_Conf_esterni.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Vai_a_Conf_esterni.Location = new System.Drawing.Point(995, 659);
+            this.Vai_a_Conf_esterni.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Vai_a_Conf_esterni.Name = "Vai_a_Conf_esterni";
+            this.Vai_a_Conf_esterni.Size = new System.Drawing.Size(229, 47);
+            this.Vai_a_Conf_esterni.TabIndex = 7;
+            this.Vai_a_Conf_esterni.Text = "Prosegui";
+            this.Vai_a_Conf_esterni.UseVisualStyleBackColor = true;
+            this.Vai_a_Conf_esterni.Click += new System.EventHandler(this.Vai_a_Conf_esterni_Click);
+            // 
+            // F_volante
+            // 
+            this.F_volante.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.F_volante.Location = new System.Drawing.Point(-151, 459);
+            this.F_volante.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.F_volante.Name = "F_volante";
+            this.F_volante.Size = new System.Drawing.Size(224, 247);
+            this.F_volante.TabIndex = 5;
+            this.F_volante.TabStop = false;
             // 
             // label6
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(-553, 352);
+            this.label6.Location = new System.Drawing.Point(-568, 350);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(79, 23);
             this.label6.TabIndex = 3;
             this.label6.Text = "Volanti";
             // 
-            // comboBox1
+            // comboInterni
             // 
-            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.comboBox1.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboInterni.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.comboInterni.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboInterni.FormattingEnabled = true;
+            this.comboInterni.Items.AddRange(new object[] {
             "Pacchetto cuciture Audi exclusive -- 2200,00 EUR",
             "Pacchetto Design Bicolor Audi exclusive -- 11260,00 EUR",
             "Pacchetto Design Marrone Cognac-Grigio Jet Audi exclusive -- 8250,00 EUR"});
-            this.comboBox1.Location = new System.Drawing.Point(-553, 93);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(479, 27);
-            this.comboBox1.TabIndex = 2;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.comboInterni.Location = new System.Drawing.Point(-568, 88);
+            this.comboInterni.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.comboInterni.Name = "comboInterni";
+            this.comboInterni.Size = new System.Drawing.Size(479, 27);
+            this.comboInterni.TabIndex = 2;
+            this.comboInterni.SelectedIndexChanged += new System.EventHandler(this.comboInterni_SelectedIndexChanged);
             // 
             // F_interni
             // 
             this.F_interni.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.F_interni.Location = new System.Drawing.Point(25, 88);
+            this.F_interni.Location = new System.Drawing.Point(18, 88);
             this.F_interni.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.F_interni.Name = "F_interni";
             this.F_interni.Size = new System.Drawing.Size(469, 235);
@@ -316,7 +332,7 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(-553, 43);
+            this.label5.Location = new System.Drawing.Point(-568, 45);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(216, 23);
             this.label5.TabIndex = 0;
@@ -325,19 +341,28 @@
             // Conf_esterni
             // 
             this.Conf_esterni.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Conf_esterni.Controls.Add(this.F_cerchi);
             this.Conf_esterni.Controls.Add(this.comboCerchi);
             this.Conf_esterni.Controls.Add(this.label9);
             this.Conf_esterni.Controls.Add(this.F_telo);
             this.Conf_esterni.Controls.Add(this.label8);
-            this.Conf_esterni.Controls.Add(this.checkBox1);
+            this.Conf_esterni.Controls.Add(this.checkTelo);
             this.Conf_esterni.Controls.Add(this.F_esterni);
             this.Conf_esterni.Controls.Add(this.comboColoCarr);
             this.Conf_esterni.Controls.Add(this.label7);
-            this.Conf_esterni.Location = new System.Drawing.Point(1203, 720);
+            this.Conf_esterni.Location = new System.Drawing.Point(12, 13);
             this.Conf_esterni.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Conf_esterni.Name = "Conf_esterni";
-            this.Conf_esterni.Size = new System.Drawing.Size(28, 27);
+            this.Conf_esterni.Size = new System.Drawing.Size(1229, 704);
             this.Conf_esterni.TabIndex = 6;
+            // 
+            // F_cerchi
+            // 
+            this.F_cerchi.Location = new System.Drawing.Point(382, 452);
+            this.F_cerchi.Name = "F_cerchi";
+            this.F_cerchi.Size = new System.Drawing.Size(200, 200);
+            this.F_cerchi.TabIndex = 9;
+            this.F_cerchi.TabStop = false;
             // 
             // comboCerchi
             // 
@@ -350,12 +375,13 @@
                 "i.  2120,00 EUR",
             "Cerchi in lega leggera da 21\'\', design a 5 razze doppie a modulo concavo, Nero.  " +
                 "4130,00 EUR",
-            "Cerchi in lega leggera da 21\'\',design a 5 razze doppie a modulo concavo, Nero con" +
-                " stampa grafica.  4230,00 EUR"});
+            "Cerchi in lega leggera da 21\'\', design a 5 razze doppie a modulo concavo, Nero co" +
+                "n stampa grafica.  4230,00 EUR"});
             this.comboCerchi.Location = new System.Drawing.Point(64, 410);
             this.comboCerchi.Name = "comboCerchi";
             this.comboCerchi.Size = new System.Drawing.Size(835, 27);
             this.comboCerchi.TabIndex = 8;
+            this.comboCerchi.SelectedIndexChanged += new System.EventHandler(this.comboCerchi_SelectedIndexChanged);
             // 
             // label9
             // 
@@ -389,18 +415,18 @@
             this.label8.TabIndex = 4;
             this.label8.Text = "723,00 EUR";
             // 
-            // checkBox1
+            // checkTelo
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox1.Location = new System.Drawing.Point(758, 84);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(291, 23);
-            this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "Telo vettura, con design Camouflage ";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.checkTelo.AutoSize = true;
+            this.checkTelo.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkTelo.Location = new System.Drawing.Point(758, 84);
+            this.checkTelo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.checkTelo.Name = "checkTelo";
+            this.checkTelo.Size = new System.Drawing.Size(291, 23);
+            this.checkTelo.TabIndex = 3;
+            this.checkTelo.Text = "Telo vettura, con design Camouflage ";
+            this.checkTelo.UseVisualStyleBackColor = true;
+            this.checkTelo.CheckedChanged += new System.EventHandler(this.checkTelo_CheckedChanged);
             // 
             // F_esterni
             // 
@@ -427,7 +453,7 @@
             this.comboColoCarr.Name = "comboColoCarr";
             this.comboColoCarr.Size = new System.Drawing.Size(391, 27);
             this.comboColoCarr.TabIndex = 1;
-            this.comboColoCarr.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.comboColoCarr.SelectedIndexChanged += new System.EventHandler(this.comboColoCarr_SelectedIndexChanged);
             // 
             // label7
             // 
@@ -438,20 +464,6 @@
             this.label7.Size = new System.Drawing.Size(182, 23);
             this.label7.TabIndex = 0;
             this.label7.Text = "Colori carrozzeria";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "Volante in pelle con profilo sportivo a 3 razze multifunzione plus con bilancieri" +
-                ", appiattito nella parte inferiore.  Di serie",
-            "Volante in pelle con profilo sportivo a 3 razze, multifunzione plus, riscaldato, " +
-                "con bilancieri, appiattito nella parte inferiore.  230,00 EUR"});
-            this.comboBox2.Location = new System.Drawing.Point(47, 399);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(1001, 27);
-            this.comboBox2.TabIndex = 8;
             // 
             // Form1
             // 
@@ -465,8 +477,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Menu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Audi_e_tron)).EndInit();
             this.Caratteristiche.ResumeLayout(false);
             this.Caratteristiche.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Potenza)).EndInit();
@@ -475,10 +487,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.Accelerazione)).EndInit();
             this.Conf_interni.ResumeLayout(false);
             this.Conf_interni.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.F_volante)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_interni)).EndInit();
             this.Conf_esterni.ResumeLayout(false);
             this.Conf_esterni.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.F_cerchi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_telo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_esterni)).EndInit();
             this.ResumeLayout(false);
@@ -487,11 +500,11 @@
 
         #endregion
         private Panel Menu;
-        private Button button1;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
+        private Button Inizia;
+        private PictureBox Audi_e_tron;
+        private PictureBox Logo;
         private Panel Caratteristiche;
-        private Button button2;
+        private Button Dettagli;
         private PictureBox Accelerazione;
         private Label label4;
         private PictureBox Potenza;
@@ -503,19 +516,20 @@
         private Panel Conf_interni;
         private Label label5;
         private Label label6;
-        private ComboBox comboBox1;
+        private ComboBox comboInterni;
         private PictureBox F_interni;
-        private PictureBox pictureBox8;
+        private PictureBox F_volante;
         private Panel Conf_esterni;
         private Label label8;
-        private CheckBox checkBox1;
+        private CheckBox checkTelo;
         private PictureBox F_esterni;
         private ComboBox comboColoCarr;
         private Label label7;
         private PictureBox F_telo;
         private Label label9;
-        private Button button3;
+        private Button Vai_a_Conf_esterni;
         private ComboBox comboCerchi;
-        private ComboBox comboBox2;
+        private ComboBox comboVolanti;
+        private PictureBox F_cerchi;
     }
 }

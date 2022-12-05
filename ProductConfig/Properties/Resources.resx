@@ -124,6 +124,21 @@
   <data name="Audi_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Icons\Audi-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="C_19_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Esterni\Route\19_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_19_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Esterni\Route\19_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Esterni\Route\20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_21_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Esterni\Route\21_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C_21_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Esterni\Route\21_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="emissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Icons\emissions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -163,8 +178,11 @@
   <data name="In_Nero" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Interni\Nero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="In_Volante" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\Interni\Volante.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="In_Volante_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Interni\Volante_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="In_Volante_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Interni\Volante_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="speed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\Icons\speed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
