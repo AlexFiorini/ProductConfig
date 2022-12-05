@@ -121,4 +121,10 @@
   <data name="audi_etron_gt2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\audi_etron-gt2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Audi_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Audi-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Audi_Logo_PNG_File" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\Audi-Logo-PNG-File.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
