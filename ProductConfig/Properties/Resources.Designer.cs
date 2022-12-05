@@ -153,6 +153,16 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Telo {
+            get {
+                object obj = ResourceManager.GetObject("Telo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap timer {
             get {
                 object obj = ResourceManager.GetObject("timer", resourceCulture);
