@@ -46,6 +46,11 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -55,6 +60,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.SuspendLayout();
             // 
             // saveFileDialog
@@ -83,6 +90,11 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.pictureBox8);
+            this.panel3.Controls.Add(this.checkedListBox1);
+            this.panel3.Controls.Add(this.label6);
+            this.panel3.Controls.Add(this.comboBox1);
+            this.panel3.Controls.Add(this.pictureBox7);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Location = new System.Drawing.Point(-11, -11);
             this.panel3.Name = "panel3";
@@ -229,6 +241,58 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(277, 82);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(317, 171);
+            this.pictureBox7.TabIndex = 1;
+            this.pictureBox7.TabStop = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Pacchetto Design Marrone Cognac-Grigio Jet Audi exclusive   8250,00 EUR",
+            "Pacchetto cuciture Audi exclusive   2200,00 EUR",
+            "Pacchetto Design Bicolor Audi exclusive\t11260,00 EUR"});
+            this.comboBox1.Location = new System.Drawing.Point(61, 82);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(126, 23);
+            this.comboBox1.TabIndex = 2;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(61, 276);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 19);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "Volanti";
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "Volante in pelle con profilo sportivo a 3 razze multifunzione plus con bilancieri" +
+                ", appiattito nella parte inferiore  Di serie",
+            "Volante in pelle con profilo sportivo a 3 razze, multifunzione plus, riscaldato, " +
+                "con bilancieri, appiattito nella parte inferiore 230,00 EUR"});
+            this.checkedListBox1.Location = new System.Drawing.Point(61, 298);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(734, 40);
+            this.checkedListBox1.TabIndex = 4;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::ProductConfig.Properties.Resources.Volante;
+            this.pictureBox8.Location = new System.Drawing.Point(61, 356);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(196, 185);
+            this.pictureBox8.TabIndex = 5;
+            this.pictureBox8.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -249,6 +313,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -273,5 +339,10 @@
         private Label label1;
         private Panel panel3;
         private Label label5;
+        private CheckedListBox checkedListBox1;
+        private Label label6;
+        private ComboBox comboBox1;
+        private PictureBox pictureBox7;
+        private PictureBox pictureBox8;
     }
 }
