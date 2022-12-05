@@ -1,7 +1,0 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="nm-icon-system-info-small" width="24"  height="24" ><defs><svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" id="nm-icon-system-info-small">
-	<title>system-info-small</title>
-	<path d="M11.5,17 L11.5,10 M11.5,8 L11.5,6" id="Shape"></path>
-	<circle id="Oval" cx="11.5" cy="11.5" r="11"></circle>
-</svg></defs>
-										<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nm-icon-system-info-small" stroke="#000000" fill="none"></use>
-									</svg>
