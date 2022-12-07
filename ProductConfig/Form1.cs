@@ -1,3 +1,5 @@
+using System.Diagnostics;
+using System.Security.Policy;
 using System.Windows.Forms;
 
 namespace ProductConfig
@@ -30,6 +32,14 @@ namespace ProductConfig
 
         bool caratte=false;
         ToolTip ToolTip1 = new ToolTip();
+
+
+        private void Info_Click(object sender, EventArgs e)
+        {
+            String url = "https://www.audi.it/it/web/it/modelli/e-tron-gt/audi-e-tron-gt.html";
+            Process.Start(new ProcessStartInfo { FileName = url, UseShellExecute = true });
+        }
+        
 
         //Pannello dettagli
 
@@ -177,7 +187,5 @@ namespace ProductConfig
                 F_cerchi.Image = Properties.Resources.C_21_2;
             }
         }
-
-        
     }
 }
