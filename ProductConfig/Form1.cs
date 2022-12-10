@@ -26,6 +26,7 @@ namespace ProductConfig
             Conf_esterni.Size = Menu.Size;
             Conf_esterni.Location = Menu.Location;
             Conf_esterni.Visible = false;
+            Riepilogo.Visible = false;
         }
 
         //Menù principale
@@ -85,6 +86,8 @@ namespace ProductConfig
         {
             Caratteristiche.Visible = false;
             Conf_interni.Visible = true;
+            comboInterni.SelectedIndex = 0;
+            comboVolanti.SelectedIndex = 0;
         }
 
         //Configurazione interni
@@ -124,6 +127,8 @@ namespace ProductConfig
             Menu.Visible = true;
             Conf_interni.Visible = false;
             Conf_esterni.Visible = true;
+            comboColoCarr.SelectedIndex = 0;
+            comboCerchi.SelectedIndex = 0;
         }
 
         //Configurazione esterno

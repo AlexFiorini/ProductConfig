@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.Menu = new System.Windows.Forms.Panel();
+            this.Info = new System.Windows.Forms.PictureBox();
             this.Dettagli = new System.Windows.Forms.Button();
             this.Logo = new System.Windows.Forms.PictureBox();
             this.Audi_e_tron = new System.Windows.Forms.PictureBox();
@@ -60,8 +61,9 @@
             this.F_esterni = new System.Windows.Forms.PictureBox();
             this.comboColoCarr = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.Info = new System.Windows.Forms.PictureBox();
+            this.Riepilogo = new System.Windows.Forms.Panel();
             this.Menu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Info)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Audi_e_tron)).BeginInit();
             this.Caratteristiche.SuspendLayout();
@@ -76,7 +78,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.F_cerchi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_telo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_esterni)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Info)).BeginInit();
             this.SuspendLayout();
             // 
             // Menu
@@ -88,10 +89,20 @@
             this.Menu.Controls.Add(this.Audi_e_tron);
             this.Menu.Controls.Add(this.Inizia);
             this.Menu.Controls.Add(this.Caratteristiche);
-            this.Menu.Location = new System.Drawing.Point(-6, -5);
+            this.Menu.Location = new System.Drawing.Point(1059, 534);
             this.Menu.Name = "Menu";
-            this.Menu.Size = new System.Drawing.Size(1271, 671);
+            this.Menu.Size = new System.Drawing.Size(16, 12);
             this.Menu.TabIndex = 2;
+            // 
+            // Info
+            // 
+            this.Info.Image = global::ProductConfig.Properties.Resources.info;
+            this.Info.Location = new System.Drawing.Point(1045, 17);
+            this.Info.Name = "Info";
+            this.Info.Size = new System.Drawing.Size(24, 24);
+            this.Info.TabIndex = 9;
+            this.Info.TabStop = false;
+            this.Info.Click += new System.EventHandler(this.Info_Click);
             // 
             // Dettagli
             // 
@@ -451,15 +462,12 @@
             this.label7.TabIndex = 0;
             this.label7.Text = "Colori carrozzeria";
             // 
-            // Info
+            // Riepilogo
             // 
-            this.Info.Image = global::ProductConfig.Properties.Resources.info;
-            this.Info.Location = new System.Drawing.Point(1045, 17);
-            this.Info.Name = "Info";
-            this.Info.Size = new System.Drawing.Size(24, 24);
-            this.Info.TabIndex = 9;
-            this.Info.TabStop = false;
-            this.Info.Click += new System.EventHandler(this.Info_Click);
+            this.Riepilogo.Location = new System.Drawing.Point(-6, -5);
+            this.Riepilogo.Name = "Riepilogo";
+            this.Riepilogo.Size = new System.Drawing.Size(1256, 761);
+            this.Riepilogo.TabIndex = 10;
             // 
             // Form1
             // 
@@ -467,6 +475,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1087, 562);
+            this.Controls.Add(this.Riepilogo);
             this.Controls.Add(this.Conf_interni);
             this.Controls.Add(this.Conf_esterni);
             this.Controls.Add(this.Menu);
@@ -475,6 +484,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Menu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Info)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Audi_e_tron)).EndInit();
             this.Caratteristiche.ResumeLayout(false);
@@ -492,7 +502,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.F_cerchi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_telo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_esterni)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Info)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -531,5 +540,6 @@
         private ComboBox comboVolanti;
         private PictureBox F_cerchi;
         private PictureBox Info;
+        private Panel Riepilogo;
     }
 }
