@@ -227,27 +227,27 @@ namespace ProductConfig
         {
             if(comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 0)    //Bianco
             {
-                F_finale.Image = Properties.Resources.Audi_Bianco;
+                F_finale.Image = Properties.Resources.Es_Bianco;
             }
             else if(comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 1)
             {
-                F_finale.Image = Properties.Resources.Audi_Bianco2;
+                F_finale.Image = Properties.Resources.Audi_bianca1;
             }
             else if (comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 2)
             {
-                F_finale.Image = Properties.Resources.Audi_bianco3;
+                F_finale.Image = Properties.Resources.Audi_bianca2;
             }
             else if (comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 3)
             {
-                F_finale.Image = Properties.Resources.Audi_bianco4;
+                F_finale.Image = Properties.Resources.Audi_bianca3;
             }
             else if (comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 4)
             {
-                F_finale.Image = Properties.Resources.Audi_bianco5;
+                F_finale.Image = Properties.Resources.Audi_bianca4;
             }
             else if (comboColoCarr.SelectedIndex == 1 && comboCerchi.SelectedIndex == 0) //Nero
             {
-                F_finale.Image = Properties.Resources.Audi_nera;
+                F_finale.Image = Properties.Resources.Es_Nero;
             }
             else if (comboColoCarr.SelectedIndex == 1 && comboCerchi.SelectedIndex == 1)
             {
@@ -267,7 +267,7 @@ namespace ProductConfig
             }
             else if (comboColoCarr.SelectedIndex == 2 && comboCerchi.SelectedIndex == 0) //Rosso
             {
-                F_finale.Image = Properties.Resources.Audi_rossa;
+                F_finale.Image = Properties.Resources.Es_Rosso;
             }
             else if (comboColoCarr.SelectedIndex == 2 && comboCerchi.SelectedIndex == 1)
             {
@@ -287,7 +287,7 @@ namespace ProductConfig
             }
             else if (comboColoCarr.SelectedIndex == 3 && comboCerchi.SelectedIndex == 0) //Grigia
             {
-                F_finale.Image = Properties.Resources.Audi_grigia;
+                F_finale.Image = Properties.Resources.Es_Grigio;
             }
             else if (comboColoCarr.SelectedIndex == 3 && comboCerchi.SelectedIndex == 1)
             {
@@ -307,7 +307,7 @@ namespace ProductConfig
             }
             else if (comboColoCarr.SelectedIndex == 4 && comboCerchi.SelectedIndex == 0) //Blu
             {
-                F_finale.Image = Properties.Resources.Audi_Blu;
+                F_finale.Image = Properties.Resources.Es_Blu;
             }
             else if (comboColoCarr.SelectedIndex == 4 && comboCerchi.SelectedIndex == 1)
             {

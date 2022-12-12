@@ -63,9 +63,9 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Audi_Bianco {
+        internal static System.Drawing.Bitmap Audi_bianca1 {
             get {
-                object obj = ResourceManager.GetObject("Audi_Bianco", resourceCulture);
+                object obj = ResourceManager.GetObject("Audi_bianca1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Audi_Bianco2 {
+        internal static System.Drawing.Bitmap Audi_bianca2 {
             get {
-                object obj = ResourceManager.GetObject("Audi_Bianco2", resourceCulture);
+                object obj = ResourceManager.GetObject("Audi_bianca2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Audi_bianco3 {
+        internal static System.Drawing.Bitmap Audi_bianca3 {
             get {
-                object obj = ResourceManager.GetObject("Audi_bianco3", resourceCulture);
+                object obj = ResourceManager.GetObject("Audi_bianca3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,29 +93,9 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Audi_bianco4 {
+        internal static System.Drawing.Bitmap Audi_bianca4 {
             get {
-                object obj = ResourceManager.GetObject("Audi_bianco4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Audi_bianco5 {
-            get {
-                object obj = ResourceManager.GetObject("Audi_bianco5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Audi_Blu {
-            get {
-                object obj = ResourceManager.GetObject("Audi_Blu", resourceCulture);
+                object obj = ResourceManager.GetObject("Audi_bianca4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,16 +153,6 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Audi_grigia {
-            get {
-                object obj = ResourceManager.GetObject("Audi_grigia", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Audi_grigia1 {
             get {
                 object obj = ResourceManager.GetObject("Audi_grigia1", resourceCulture);
@@ -233,16 +203,6 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Audi_nera {
-            get {
-                object obj = ResourceManager.GetObject("Audi_nera", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Audi_nera1 {
             get {
                 object obj = ResourceManager.GetObject("Audi_nera1", resourceCulture);
@@ -276,16 +236,6 @@ namespace ProductConfig.Properties {
         internal static System.Drawing.Bitmap Audi_nera4 {
             get {
                 object obj = ResourceManager.GetObject("Audi_nera4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Audi_rossa {
-            get {
-                object obj = ResourceManager.GetObject("Audi_rossa", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
