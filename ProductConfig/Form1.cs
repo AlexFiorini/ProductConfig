@@ -12,7 +12,8 @@ namespace ProductConfig
          * ..._Click: Bottoni
          * ..._MouseHover: Mouse resta fermo su determinato oggetto
          */
-
+        Audi audi = new Audi();
+        String path = "Configurazione.txt";
         public Form1()
         {
             InitializeComponent();
@@ -29,11 +30,18 @@ namespace ProductConfig
             Riepilogo.Size = Menu.Size;
             Riepilogo.Location = Menu.Location;
             Riepilogo.Visible = false;
+            loadAudi();
+        }
+
+        //Carica configurazione precedente
+        void loadAudi()
+        {
+            audi.LeggiDaFile(path);
         }
 
         //Menù principale
 
-        bool caratte=false;
+        bool caratte = false;
         ToolTip ToolTip1 = new ToolTip();
 
 
@@ -42,7 +50,7 @@ namespace ProductConfig
             String url = "https://www.audi.it/it/web/it/modelli/e-tron-gt/audi-e-tron-gt.html";
             Process.Start(new ProcessStartInfo { FileName = url, UseShellExecute = true });
         }
-        
+
 
         //Pannello dettagli
 
@@ -88,8 +96,21 @@ namespace ProductConfig
         {
             Caratteristiche.Visible = false;
             Conf_interni.Visible = true;
-            comboInterni.SelectedIndex = 0;
-            comboVolanti.SelectedIndex = 0;
+            if(audi.interni=="null")
+            {
+                comboInterni.SelectedIndex = 0;
+            } else
+            {
+                comboInterni.Text = audi.interni;
+            }
+            
+            if(audi.volante=="null")
+            {
+                comboVolanti.SelectedIndex = 0;
+            } else
+            {
+                comboVolanti.Text = audi.volante;
+            }
         }
 
         //Configurazione interni
@@ -134,8 +155,22 @@ namespace ProductConfig
             Menu.Visible = false;
             Conf_interni.Visible = false;
             Conf_esterni.Visible = true;
-            comboColoCarr.SelectedIndex = 0;
-            comboCerchi.SelectedIndex = 0;
+            if(audi.colo_car == "null")
+            {
+                comboColoCarr.SelectedIndex = 0;
+            } else
+            {
+                comboColoCarr.Text = audi.colo_car;
+            }
+            if (audi.cerchi == "null")
+            {
+                comboCerchi.SelectedIndex = 0;
+            }
+            else
+            {
+                comboCerchi.Text = audi.cerchi;
+            }
+            checkTelo.Checked = audi.telo;
         }
 
         //Configurazione esterno
@@ -144,27 +179,27 @@ namespace ProductConfig
         {
             if (comboColoCarr.SelectedIndex == 0)
             {
-                F_esterni.Image = Properties.Resources.Es_Bianco;
+                F_esterni.Image = Properties.Resources.Audi_bianca0;
                 Prezzo_carr.Text = "0,0 EUR";
             }
             else if (comboColoCarr.SelectedIndex == 1)
             {
-                F_esterni.Image = Properties.Resources.Es_Nero;
+                F_esterni.Image = Properties.Resources.Audi_nera0;
                 Prezzo_carr.Text = "1270,00 EUR";
             }
             else if (comboColoCarr.SelectedIndex == 2)
             {
-                F_esterni.Image = Properties.Resources.Es_Rosso;
+                F_esterni.Image = Properties.Resources.Audi_rossa0;
                 Prezzo_carr.Text = "1270,00 EUR";
             }
             else if (comboColoCarr.SelectedIndex == 3)
             {
-                F_esterni.Image = Properties.Resources.Es_Grigio;
+                F_esterni.Image = Properties.Resources.Audi_grigia0;
                 Prezzo_carr.Text = "1270,00 EUR";
             }
             else if (comboColoCarr.SelectedIndex == 4)
             {
-                F_esterni.Image = Properties.Resources.Es_Blu;
+                F_esterni.Image = Properties.Resources.Audi_blu0;
                 Prezzo_carr.Text = "5310,00 EUR";
             }
         }
@@ -220,34 +255,51 @@ namespace ProductConfig
             Conf_interni.Visible = false;
             Conf_esterni.Visible = false;
             Riepilogo.Visible = true;
+            loadTesti();
             loadF_finale();
+            calcolaprezzo();
+        }
+
+        void loadTesti()
+        {
+            Int_scelta.Text = comboInterni.Text;
+            Vol_scelta.Text = comboVolanti.Text;
+            Carr_scelta.Text = comboColoCarr.Text;
+            Cer_scelta.Text = comboCerchi.Text;
+            if(checkTelo.Checked)
+            {
+                Tel_scelta.Text = checkTelo.Text;
+            } else
+            {
+                Tel_scelta.Text = "";
+            }
         }
 
         void loadF_finale()
         {
             if(comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 0)    //Bianco
             {
-                F_finale.Image = Properties.Resources.Audi_Bianco;
+                F_finale.Image = Properties.Resources.Audi_bianca0;
             }
             else if(comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 1)
             {
-                F_finale.Image = Properties.Resources.Audi_Bianco2;
+                F_finale.Image = Properties.Resources.Audi_bianca1;
             }
             else if (comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 2)
             {
-                F_finale.Image = Properties.Resources.Audi_bianco3;
+                F_finale.Image = Properties.Resources.Audi_bianca2;
             }
             else if (comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 3)
             {
-                F_finale.Image = Properties.Resources.Audi_bianco4;
+                F_finale.Image = Properties.Resources.Audi_bianca3;
             }
             else if (comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 4)
             {
-                F_finale.Image = Properties.Resources.Audi_bianco5;
+                F_finale.Image = Properties.Resources.Audi_bianca4;
             }
             else if (comboColoCarr.SelectedIndex == 1 && comboCerchi.SelectedIndex == 0) //Nero
             {
-                F_finale.Image = Properties.Resources.Audi_nera;
+                F_finale.Image = Properties.Resources.Audi_nera0;
             }
             else if (comboColoCarr.SelectedIndex == 1 && comboCerchi.SelectedIndex == 1)
             {
@@ -267,7 +319,7 @@ namespace ProductConfig
             }
             else if (comboColoCarr.SelectedIndex == 2 && comboCerchi.SelectedIndex == 0) //Rosso
             {
-                F_finale.Image = Properties.Resources.Audi_rossa;
+                F_finale.Image = Properties.Resources.Audi_rossa0;
             }
             else if (comboColoCarr.SelectedIndex == 2 && comboCerchi.SelectedIndex == 1)
             {
@@ -287,7 +339,7 @@ namespace ProductConfig
             }
             else if (comboColoCarr.SelectedIndex == 3 && comboCerchi.SelectedIndex == 0) //Grigia
             {
-                F_finale.Image = Properties.Resources.Audi_grigia;
+                F_finale.Image = Properties.Resources.Audi_grigia0;
             }
             else if (comboColoCarr.SelectedIndex == 3 && comboCerchi.SelectedIndex == 1)
             {
@@ -307,7 +359,7 @@ namespace ProductConfig
             }
             else if (comboColoCarr.SelectedIndex == 4 && comboCerchi.SelectedIndex == 0) //Blu
             {
-                F_finale.Image = Properties.Resources.Audi_Blu;
+                F_finale.Image = Properties.Resources.Audi_blu0;
             }
             else if (comboColoCarr.SelectedIndex == 4 && comboCerchi.SelectedIndex == 1)
             {
@@ -325,6 +377,82 @@ namespace ProductConfig
             {
                 F_finale.Image = Properties.Resources.Audi_blu4;
             }
+        }
+
+        void calcolaprezzo()
+        {
+            double prezzo = 111300;
+            
+            //Interni
+            if (comboInterni.SelectedIndex == 0)
+            {
+                prezzo += 2200;
+            }
+            else if (comboInterni.SelectedIndex == 1)
+            {
+                prezzo += 11260;
+            }
+            else if (comboInterni.SelectedIndex == 2)
+            {
+                prezzo += 8250;
+            }
+
+            //Volante
+            if (comboVolanti.SelectedIndex == 1)
+            {
+                prezzo += 230;
+            }
+
+            //Carrozzeria
+            if (comboColoCarr.SelectedIndex == 1)
+            {
+                prezzo += 1270;
+            }
+            else if (comboColoCarr.SelectedIndex == 2)
+            {
+                prezzo += 1270;
+            }
+            else if (comboColoCarr.SelectedIndex == 3)
+            {
+                prezzo += 1270;
+            }
+            else if (comboColoCarr.SelectedIndex == 4)
+            {
+                prezzo += 5310;
+            }
+
+            //Telo
+            if (checkTelo.Checked)
+            {
+                prezzo += 723; 
+            }
+
+            //Cerchi
+            if (comboCerchi.SelectedIndex == 1)
+            {
+                prezzo += 370;
+            }
+            else if (comboCerchi.SelectedIndex == 2)
+            {
+                prezzo += 2120;
+            }
+            else if (comboCerchi.SelectedIndex == 3)
+            {
+                prezzo += 4130;
+            }
+            else if (comboCerchi.SelectedIndex == 4)
+            {
+                prezzo += 4230;
+            }
+
+            Totale_testo.Text = "Totale: " + prezzo.ToString() + " EUR";
+        }
+
+        private void Salva_Click(object sender, EventArgs e)
+        {
+            audi = new Audi(comboInterni.Text, comboVolanti.Text, comboColoCarr.Text, comboCerchi.Text, checkTelo.Checked);
+            audi.ScriviSuFile(path);
+            MessageBox.Show(string.Format("Configurazione salvata correttamente"), "Salva file", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
