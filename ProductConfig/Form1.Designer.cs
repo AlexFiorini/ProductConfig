@@ -485,16 +485,16 @@
             this.Riepilogo.Controls.Add(this.F_finale);
             this.Riepilogo.Controls.Add(this.label10);
             this.Riepilogo.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Riepilogo.Location = new System.Drawing.Point(-6, -5);
+            this.Riepilogo.Location = new System.Drawing.Point(-3, -4);
             this.Riepilogo.Name = "Riepilogo";
-            this.Riepilogo.Size = new System.Drawing.Size(1256, 761);
+            this.Riepilogo.Size = new System.Drawing.Size(1103, 579);
             this.Riepilogo.TabIndex = 10;
             // 
             // F_finale
             // 
-            this.F_finale.Location = new System.Drawing.Point(459, 48);
+            this.F_finale.Location = new System.Drawing.Point(448, 29);
             this.F_finale.Name = "F_finale";
-            this.F_finale.Size = new System.Drawing.Size(556, 283);
+            this.F_finale.Size = new System.Drawing.Size(610, 317);
             this.F_finale.TabIndex = 1;
             this.F_finale.TabStop = false;
             // 

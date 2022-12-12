@@ -63,6 +63,16 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Audi_Bianco {
+            get {
+                object obj = ResourceManager.GetObject("Audi_Bianco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Audi_Bianco2 {
             get {
                 object obj = ResourceManager.GetObject("Audi_Bianco2", resourceCulture);
@@ -103,9 +113,9 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Audi_blu {
+        internal static System.Drawing.Bitmap Audi_Blu {
             get {
-                object obj = ResourceManager.GetObject("Audi_blu", resourceCulture);
+                object obj = ResourceManager.GetObject("Audi_Blu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,6 +153,16 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Audi_blu4 {
+            get {
+                object obj = ResourceManager.GetObject("Audi_blu4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap audi_etron_gt2x {
             get {
                 object obj = ResourceManager.GetObject("audi_etron_gt2x", resourceCulture);
@@ -156,6 +176,16 @@ namespace ProductConfig.Properties {
         internal static System.Drawing.Bitmap Audi_grigia {
             get {
                 object obj = ResourceManager.GetObject("Audi_grigia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Audi_grigia1 {
+            get {
+                object obj = ResourceManager.GetObject("Audi_grigia1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,6 +273,16 @@ namespace ProductConfig.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Audi_nera4 {
+            get {
+                object obj = ResourceManager.GetObject("Audi_nera4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Audi_rossa {
             get {
                 object obj = ResourceManager.GetObject("Audi_rossa", resourceCulture);
@@ -276,6 +316,16 @@ namespace ProductConfig.Properties {
         internal static System.Drawing.Bitmap Audi_rossa3 {
             get {
                 object obj = ResourceManager.GetObject("Audi_rossa3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Audi_rossa4 {
+            get {
+                object obj = ResourceManager.GetObject("Audi_rossa4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
