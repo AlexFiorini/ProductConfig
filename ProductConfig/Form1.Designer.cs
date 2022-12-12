@@ -52,6 +52,7 @@
             this.F_interni = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.Conf_esterni = new System.Windows.Forms.Panel();
+            this.Vai_a_Riepilogo = new System.Windows.Forms.Button();
             this.F_cerchi = new System.Windows.Forms.PictureBox();
             this.comboCerchi = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -62,6 +63,8 @@
             this.comboColoCarr = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.Riepilogo = new System.Windows.Forms.Panel();
+            this.F_finale = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.Menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Info)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
@@ -78,6 +81,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.F_cerchi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_telo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_esterni)).BeginInit();
+            this.Riepilogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.F_finale)).BeginInit();
             this.SuspendLayout();
             // 
             // Menu
@@ -106,7 +111,7 @@
             // 
             // Dettagli
             // 
-            this.Dettagli.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Dettagli.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Dettagli.Location = new System.Drawing.Point(451, 386);
             this.Dettagli.Name = "Dettagli";
             this.Dettagli.Size = new System.Drawing.Size(200, 30);
@@ -135,7 +140,7 @@
             // 
             // Inizia
             // 
-            this.Inizia.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Inizia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Inizia.Location = new System.Drawing.Point(451, 334);
             this.Inizia.Name = "Inizia";
             this.Inizia.Size = new System.Drawing.Size(200, 35);
@@ -163,10 +168,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(848, 52);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 16);
+            this.label4.Size = new System.Drawing.Size(51, 16);
             this.label4.TabIndex = 7;
             this.label4.Text = "350 kW";
             // 
@@ -183,10 +188,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(564, 53);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(153, 16);
+            this.label3.Size = new System.Drawing.Size(136, 16);
             this.label3.TabIndex = 5;
             this.label3.Text = "21,6–19,7 kWh/100 km";
             // 
@@ -203,10 +208,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(377, 53);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 16);
+            this.label2.Size = new System.Drawing.Size(58, 16);
             this.label2.TabIndex = 3;
             this.label2.Text = "0-0 g/km";
             // 
@@ -233,10 +238,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(182, 53);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 16);
+            this.label1.Size = new System.Drawing.Size(75, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "4,1 secondi";
             // 
@@ -250,14 +255,14 @@
             this.Conf_interni.Controls.Add(this.comboInterni);
             this.Conf_interni.Controls.Add(this.F_interni);
             this.Conf_interni.Controls.Add(this.label5);
-            this.Conf_interni.Location = new System.Drawing.Point(1033, 547);
+            this.Conf_interni.Location = new System.Drawing.Point(1011, 536);
             this.Conf_interni.Name = "Conf_interni";
-            this.Conf_interni.Size = new System.Drawing.Size(15, 15);
+            this.Conf_interni.Size = new System.Drawing.Size(21, 18);
             this.Conf_interni.TabIndex = 9;
             // 
             // comboVolanti
             // 
-            this.comboVolanti.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboVolanti.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboVolanti.FormattingEnabled = true;
             this.comboVolanti.Items.AddRange(new object[] {
             "Volante in pelle con profilo sportivo a 3 razze multifunzione plus con bilancieri" +
@@ -273,7 +278,7 @@
             // 
             // Vai_a_Conf_esterni
             // 
-            this.Vai_a_Conf_esterni.Font = new System.Drawing.Font("Audi Type", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Vai_a_Conf_esterni.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Vai_a_Conf_esterni.Location = new System.Drawing.Point(891, 529);
             this.Vai_a_Conf_esterni.Name = "Vai_a_Conf_esterni";
             this.Vai_a_Conf_esterni.Size = new System.Drawing.Size(200, 35);
@@ -285,7 +290,7 @@
             // F_volante
             // 
             this.F_volante.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.F_volante.Location = new System.Drawing.Point(-305, 364);
+            this.F_volante.Location = new System.Drawing.Point(-302, 364);
             this.F_volante.Name = "F_volante";
             this.F_volante.Size = new System.Drawing.Size(200, 200);
             this.F_volante.TabIndex = 5;
@@ -295,23 +300,23 @@
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(-578, 299);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(-575, 299);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 19);
+            this.label6.Size = new System.Drawing.Size(59, 18);
             this.label6.TabIndex = 3;
             this.label6.Text = "Volanti";
             // 
             // comboInterni
             // 
             this.comboInterni.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.comboInterni.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboInterni.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboInterni.FormattingEnabled = true;
             this.comboInterni.Items.AddRange(new object[] {
             "Pacchetto cuciture Audi exclusive -- 2200,00 EUR",
             "Pacchetto Design Bicolor Audi exclusive -- 11260,00 EUR",
             "Pacchetto Design Marrone Cognac-Grigio Jet Audi exclusive -- 8250,00 EUR"});
-            this.comboInterni.Location = new System.Drawing.Point(-578, 66);
+            this.comboInterni.Location = new System.Drawing.Point(-575, 66);
             this.comboInterni.Name = "comboInterni";
             this.comboInterni.Size = new System.Drawing.Size(420, 23);
             this.comboInterni.TabIndex = 2;
@@ -320,7 +325,7 @@
             // F_interni
             // 
             this.F_interni.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.F_interni.Location = new System.Drawing.Point(-109, 66);
+            this.F_interni.Location = new System.Drawing.Point(-106, 66);
             this.F_interni.Name = "F_interni";
             this.F_interni.Size = new System.Drawing.Size(400, 225);
             this.F_interni.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -331,16 +336,17 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(-578, 32);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(-575, 32);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(179, 19);
+            this.label5.Size = new System.Drawing.Size(168, 18);
             this.label5.TabIndex = 0;
             this.label5.Text = "Audi exclusive design";
             // 
             // Conf_esterni
             // 
             this.Conf_esterni.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Conf_esterni.Controls.Add(this.Vai_a_Riepilogo);
             this.Conf_esterni.Controls.Add(this.F_cerchi);
             this.Conf_esterni.Controls.Add(this.comboCerchi);
             this.Conf_esterni.Controls.Add(this.label9);
@@ -350,10 +356,21 @@
             this.Conf_esterni.Controls.Add(this.F_esterni);
             this.Conf_esterni.Controls.Add(this.comboColoCarr);
             this.Conf_esterni.Controls.Add(this.label7);
-            this.Conf_esterni.Location = new System.Drawing.Point(1059, 552);
+            this.Conf_esterni.Location = new System.Drawing.Point(971, 534);
             this.Conf_esterni.Name = "Conf_esterni";
-            this.Conf_esterni.Size = new System.Drawing.Size(16, 10);
+            this.Conf_esterni.Size = new System.Drawing.Size(20, 22);
             this.Conf_esterni.TabIndex = 6;
+            // 
+            // Vai_a_Riepilogo
+            // 
+            this.Vai_a_Riepilogo.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Vai_a_Riepilogo.Location = new System.Drawing.Point(968, 528);
+            this.Vai_a_Riepilogo.Name = "Vai_a_Riepilogo";
+            this.Vai_a_Riepilogo.Size = new System.Drawing.Size(114, 34);
+            this.Vai_a_Riepilogo.TabIndex = 10;
+            this.Vai_a_Riepilogo.Text = "Riepilogo";
+            this.Vai_a_Riepilogo.UseVisualStyleBackColor = true;
+            this.Vai_a_Riepilogo.Click += new System.EventHandler(this.Vai_a_Riepilogo_Click);
             // 
             // F_cerchi
             // 
@@ -366,7 +383,7 @@
             // 
             // comboCerchi
             // 
-            this.comboCerchi.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboCerchi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboCerchi.FormattingEnabled = true;
             this.comboCerchi.Items.AddRange(new object[] {
             "Cerchi in lega leggera da 19\'\', grigio platino.  Di serie",
@@ -387,10 +404,10 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label9.Location = new System.Drawing.Point(54, 276);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(58, 19);
+            this.label9.Size = new System.Drawing.Size(57, 18);
             this.label9.TabIndex = 6;
             this.label9.Text = "Cerchi";
             // 
@@ -408,20 +425,20 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label8.Location = new System.Drawing.Point(923, 64);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(87, 15);
+            this.label8.Size = new System.Drawing.Size(84, 15);
             this.label8.TabIndex = 4;
             this.label8.Text = "723,00 EUR";
             // 
             // checkTelo
             // 
             this.checkTelo.AutoSize = true;
-            this.checkTelo.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.checkTelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.checkTelo.Location = new System.Drawing.Point(663, 63);
             this.checkTelo.Name = "checkTelo";
-            this.checkTelo.Size = new System.Drawing.Size(237, 19);
+            this.checkTelo.Size = new System.Drawing.Size(228, 19);
             this.checkTelo.TabIndex = 3;
             this.checkTelo.Text = "Telo vettura, con design Camouflage ";
             this.checkTelo.UseVisualStyleBackColor = true;
@@ -438,7 +455,7 @@
             // 
             // comboColoCarr
             // 
-            this.comboColoCarr.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboColoCarr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboColoCarr.FormattingEnabled = true;
             this.comboColoCarr.Items.AddRange(new object[] {
             "Bianco ibis  -- 0,0 EUR",
@@ -455,19 +472,40 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label7.Location = new System.Drawing.Point(56, 25);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(149, 19);
+            this.label7.Size = new System.Drawing.Size(145, 18);
             this.label7.TabIndex = 0;
             this.label7.Text = "Colori carrozzeria";
             // 
             // Riepilogo
             // 
+            this.Riepilogo.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Riepilogo.Controls.Add(this.F_finale);
+            this.Riepilogo.Controls.Add(this.label10);
+            this.Riepilogo.Font = new System.Drawing.Font("Audi Type", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Riepilogo.Location = new System.Drawing.Point(-6, -5);
             this.Riepilogo.Name = "Riepilogo";
             this.Riepilogo.Size = new System.Drawing.Size(1256, 761);
             this.Riepilogo.TabIndex = 10;
+            // 
+            // F_finale
+            // 
+            this.F_finale.Location = new System.Drawing.Point(459, 48);
+            this.F_finale.Name = "F_finale";
+            this.F_finale.Size = new System.Drawing.Size(556, 283);
+            this.F_finale.TabIndex = 1;
+            this.F_finale.TabStop = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(21, 12);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(85, 19);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Riepilogo";
             // 
             // Form1
             // 
@@ -502,6 +540,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.F_cerchi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_telo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_esterni)).EndInit();
+            this.Riepilogo.ResumeLayout(false);
+            this.Riepilogo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.F_finale)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -541,5 +582,8 @@
         private PictureBox F_cerchi;
         private PictureBox Info;
         private Panel Riepilogo;
+        private Button Vai_a_Riepilogo;
+        private Label label10;
+        private PictureBox F_finale;
     }
 }
