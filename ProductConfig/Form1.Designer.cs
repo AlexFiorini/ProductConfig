@@ -67,6 +67,7 @@
             this.comboColoCarr = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.Riepilogo = new System.Windows.Forms.Panel();
+            this.Salva_config = new System.Windows.Forms.Label();
             this.Salva = new System.Windows.Forms.PictureBox();
             this.Totale_testo = new System.Windows.Forms.Label();
             this.Tel_scelta = new System.Windows.Forms.Label();
@@ -76,7 +77,6 @@
             this.Carr_scelta = new System.Windows.Forms.Label();
             this.F_finale = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.Salva_config = new System.Windows.Forms.Label();
             this.Menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Info)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
@@ -575,6 +575,15 @@
             this.Riepilogo.Size = new System.Drawing.Size(1256, 761);
             this.Riepilogo.TabIndex = 10;
             // 
+            // Salva_config
+            // 
+            this.Salva_config.AutoSize = true;
+            this.Salva_config.Location = new System.Drawing.Point(139, 363);
+            this.Salva_config.Name = "Salva_config";
+            this.Salva_config.Size = new System.Drawing.Size(234, 23);
+            this.Salva_config.TabIndex = 9;
+            this.Salva_config.Text = "Salva la configurazione";
+            // 
             // Salva
             // 
             this.Salva.Image = global::ProductConfig.Properties.Resources.Save;
@@ -662,15 +671,6 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Riepilogo";
             // 
-            // Salva_config
-            // 
-            this.Salva_config.AutoSize = true;
-            this.Salva_config.Location = new System.Drawing.Point(139, 363);
-            this.Salva_config.Name = "Salva_config";
-            this.Salva_config.Size = new System.Drawing.Size(234, 23);
-            this.Salva_config.TabIndex = 9;
-            this.Salva_config.Text = "Salva la configurazione";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -683,7 +683,7 @@
             this.Controls.Add(this.Menu);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Audi_e_tron";
             this.Menu.ResumeLayout(false);
             this.Menu.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Info)).EndInit();
