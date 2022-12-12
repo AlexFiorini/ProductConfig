@@ -67,13 +67,16 @@
             this.comboColoCarr = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.Riepilogo = new System.Windows.Forms.Panel();
+            this.Salva = new System.Windows.Forms.PictureBox();
+            this.Totale_testo = new System.Windows.Forms.Label();
+            this.Tel_scelta = new System.Windows.Forms.Label();
+            this.Int_scelta = new System.Windows.Forms.Label();
+            this.Cer_scelta = new System.Windows.Forms.Label();
+            this.Vol_scelta = new System.Windows.Forms.Label();
+            this.Carr_scelta = new System.Windows.Forms.Label();
             this.F_finale = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.Carr_scelta = new System.Windows.Forms.Label();
-            this.Vol_scelta = new System.Windows.Forms.Label();
-            this.Ruo_scelta = new System.Windows.Forms.Label();
-            this.Int_scelta = new System.Windows.Forms.Label();
-            this.Tel_scelta = new System.Windows.Forms.Label();
+            this.Salva_config = new System.Windows.Forms.Label();
             this.Menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Info)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
@@ -91,6 +94,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.F_telo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_esterni)).BeginInit();
             this.Riepilogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Salva)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_finale)).BeginInit();
             this.SuspendLayout();
             // 
@@ -555,9 +559,12 @@
             // Riepilogo
             // 
             this.Riepilogo.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Riepilogo.Controls.Add(this.Salva_config);
+            this.Riepilogo.Controls.Add(this.Salva);
+            this.Riepilogo.Controls.Add(this.Totale_testo);
             this.Riepilogo.Controls.Add(this.Tel_scelta);
             this.Riepilogo.Controls.Add(this.Int_scelta);
-            this.Riepilogo.Controls.Add(this.Ruo_scelta);
+            this.Riepilogo.Controls.Add(this.Cer_scelta);
             this.Riepilogo.Controls.Add(this.Vol_scelta);
             this.Riepilogo.Controls.Add(this.Carr_scelta);
             this.Riepilogo.Controls.Add(this.F_finale);
@@ -568,11 +575,80 @@
             this.Riepilogo.Size = new System.Drawing.Size(1256, 761);
             this.Riepilogo.TabIndex = 10;
             // 
+            // Salva
+            // 
+            this.Salva.Image = global::ProductConfig.Properties.Resources.Save;
+            this.Salva.Location = new System.Drawing.Point(22, 359);
+            this.Salva.Name = "Salva";
+            this.Salva.Size = new System.Drawing.Size(100, 100);
+            this.Salva.TabIndex = 8;
+            this.Salva.TabStop = false;
+            this.Salva.Click += new System.EventHandler(this.Salva_Click);
+            // 
+            // Totale_testo
+            // 
+            this.Totale_testo.AutoSize = true;
+            this.Totale_testo.Location = new System.Drawing.Point(24, 257);
+            this.Totale_testo.Name = "Totale_testo";
+            this.Totale_testo.Size = new System.Drawing.Size(78, 23);
+            this.Totale_testo.TabIndex = 7;
+            this.Totale_testo.Text = "Totale:";
+            // 
+            // Tel_scelta
+            // 
+            this.Tel_scelta.AutoSize = true;
+            this.Tel_scelta.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Tel_scelta.Location = new System.Drawing.Point(24, 185);
+            this.Tel_scelta.Name = "Tel_scelta";
+            this.Tel_scelta.Size = new System.Drawing.Size(84, 19);
+            this.Tel_scelta.TabIndex = 6;
+            this.Tel_scelta.Text = "PH_TEL_SC";
+            // 
+            // Int_scelta
+            // 
+            this.Int_scelta.AutoSize = true;
+            this.Int_scelta.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Int_scelta.Location = new System.Drawing.Point(24, 61);
+            this.Int_scelta.Name = "Int_scelta";
+            this.Int_scelta.Size = new System.Drawing.Size(82, 19);
+            this.Int_scelta.TabIndex = 5;
+            this.Int_scelta.Text = "PH_INT_SC";
+            // 
+            // Cer_scelta
+            // 
+            this.Cer_scelta.AutoSize = true;
+            this.Cer_scelta.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Cer_scelta.Location = new System.Drawing.Point(24, 154);
+            this.Cer_scelta.Name = "Cer_scelta";
+            this.Cer_scelta.Size = new System.Drawing.Size(87, 19);
+            this.Cer_scelta.TabIndex = 4;
+            this.Cer_scelta.Text = "PH_CER_SC";
+            // 
+            // Vol_scelta
+            // 
+            this.Vol_scelta.AutoSize = true;
+            this.Vol_scelta.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Vol_scelta.Location = new System.Drawing.Point(24, 94);
+            this.Vol_scelta.Name = "Vol_scelta";
+            this.Vol_scelta.Size = new System.Drawing.Size(88, 19);
+            this.Vol_scelta.TabIndex = 3;
+            this.Vol_scelta.Text = "PH_VOL_SC";
+            // 
+            // Carr_scelta
+            // 
+            this.Carr_scelta.AutoSize = true;
+            this.Carr_scelta.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Carr_scelta.Location = new System.Drawing.Point(24, 125);
+            this.Carr_scelta.Name = "Carr_scelta";
+            this.Carr_scelta.Size = new System.Drawing.Size(98, 19);
+            this.Carr_scelta.TabIndex = 2;
+            this.Carr_scelta.Text = "PH_CARR_SC";
+            // 
             // F_finale
             // 
-            this.F_finale.Location = new System.Drawing.Point(616, 61);
+            this.F_finale.Location = new System.Drawing.Point(376, 359);
             this.F_finale.Name = "F_finale";
-            this.F_finale.Size = new System.Drawing.Size(610, 317);
+            this.F_finale.Size = new System.Drawing.Size(850, 266);
             this.F_finale.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.F_finale.TabIndex = 1;
             this.F_finale.TabStop = false;
@@ -586,55 +662,14 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Riepilogo";
             // 
-            // Carr_scelta
+            // Salva_config
             // 
-            this.Carr_scelta.AutoSize = true;
-            this.Carr_scelta.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Carr_scelta.Location = new System.Drawing.Point(24, 125);
-            this.Carr_scelta.Name = "Carr_scelta";
-            this.Carr_scelta.Size = new System.Drawing.Size(98, 19);
-            this.Carr_scelta.TabIndex = 2;
-            this.Carr_scelta.Text = "PH_CARR_SC";
-            // 
-            // Vol_scelta
-            // 
-            this.Vol_scelta.AutoSize = true;
-            this.Vol_scelta.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Vol_scelta.Location = new System.Drawing.Point(24, 94);
-            this.Vol_scelta.Name = "Vol_scelta";
-            this.Vol_scelta.Size = new System.Drawing.Size(88, 19);
-            this.Vol_scelta.TabIndex = 3;
-            this.Vol_scelta.Text = "PH_VOL_SC";
-            // 
-            // Ruo_scelta
-            // 
-            this.Ruo_scelta.AutoSize = true;
-            this.Ruo_scelta.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Ruo_scelta.Location = new System.Drawing.Point(24, 154);
-            this.Ruo_scelta.Name = "Ruo_scelta";
-            this.Ruo_scelta.Size = new System.Drawing.Size(90, 19);
-            this.Ruo_scelta.TabIndex = 4;
-            this.Ruo_scelta.Text = "PH_RUO_SC";
-            // 
-            // Int_scelta
-            // 
-            this.Int_scelta.AutoSize = true;
-            this.Int_scelta.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Int_scelta.Location = new System.Drawing.Point(24, 61);
-            this.Int_scelta.Name = "Int_scelta";
-            this.Int_scelta.Size = new System.Drawing.Size(82, 19);
-            this.Int_scelta.TabIndex = 5;
-            this.Int_scelta.Text = "PH_INT_SC";
-            // 
-            // Tel_scelta
-            // 
-            this.Tel_scelta.AutoSize = true;
-            this.Tel_scelta.Font = new System.Drawing.Font("Audi Type", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Tel_scelta.Location = new System.Drawing.Point(24, 185);
-            this.Tel_scelta.Name = "Tel_scelta";
-            this.Tel_scelta.Size = new System.Drawing.Size(84, 19);
-            this.Tel_scelta.TabIndex = 6;
-            this.Tel_scelta.Text = "PH_TEL_SC";
+            this.Salva_config.AutoSize = true;
+            this.Salva_config.Location = new System.Drawing.Point(139, 363);
+            this.Salva_config.Name = "Salva_config";
+            this.Salva_config.Size = new System.Drawing.Size(234, 23);
+            this.Salva_config.TabIndex = 9;
+            this.Salva_config.Text = "Salva la configurazione";
             // 
             // Form1
             // 
@@ -671,6 +706,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.F_esterni)).EndInit();
             this.Riepilogo.ResumeLayout(false);
             this.Riepilogo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Salva)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.F_finale)).EndInit();
             this.ResumeLayout(false);
 
@@ -720,8 +756,11 @@
         private Label Prezzo_volante;
         private Label Vol_scelta;
         private Label Carr_scelta;
-        private Label Ruo_scelta;
+        private Label Cer_scelta;
         private Label Int_scelta;
         private Label Tel_scelta;
+        private Label Totale_testo;
+        private PictureBox Salva;
+        private Label Salva_config;
     }
 }
