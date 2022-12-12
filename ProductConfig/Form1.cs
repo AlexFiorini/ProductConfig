@@ -18,7 +18,7 @@ namespace ProductConfig
             InitializeComponent();
             Menu.Width = 1256;
             Menu.Height = 761;
-            Point p = new Point(-6, -5);
+            Point p = new Point(0, 0);
             Menu.Location = p;
             Conf_interni.Size = Menu.Size;
             Conf_interni.Location = Menu.Location;
@@ -26,6 +26,8 @@ namespace ProductConfig
             Conf_esterni.Size = Menu.Size;
             Conf_esterni.Location = Menu.Location;
             Conf_esterni.Visible = false;
+            Riepilogo.Size = Menu.Size;
+            Riepilogo.Location = Menu.Location;
             Riepilogo.Visible = false;
         }
 
@@ -97,14 +99,17 @@ namespace ProductConfig
             if (comboInterni.SelectedIndex == 0)
             {
                 F_interni.Image = Properties.Resources.In_Nero;
+                Prezzo_interni.Text = "2200,00 EUR";
             }
             else if (comboInterni.SelectedIndex == 1)
             {
                 F_interni.Image = Properties.Resources.In_Azzurro;
+                Prezzo_interni.Text = "11260,00 EUR";
             }
             else if (comboInterni.SelectedIndex == 2)
             {
                 F_interni.Image = Properties.Resources.In_Marrone;
+                Prezzo_interni.Text = "8250,00 EUR";
             }
         }
 
@@ -113,10 +118,12 @@ namespace ProductConfig
             if (comboVolanti.SelectedIndex == 0)
             {
                 F_volante.Image = Properties.Resources.In_Volante_1;
+                Prezzo_volante.Text = "0,0 EUR";
             }
             else if (comboVolanti.SelectedIndex == 1)
             {
                 F_volante.Image = Properties.Resources.In_Volante_2;
+                Prezzo_volante.Text = "230,00 EUR";
             }
         }
 
@@ -138,22 +145,27 @@ namespace ProductConfig
             if (comboColoCarr.SelectedIndex == 0)
             {
                 F_esterni.Image = Properties.Resources.Es_Bianco;
+                Prezzo_carr.Text = "0,0 EUR";
             }
             else if (comboColoCarr.SelectedIndex == 1)
             {
                 F_esterni.Image = Properties.Resources.Es_Nero;
+                Prezzo_carr.Text = "1270,00 EUR";
             }
             else if (comboColoCarr.SelectedIndex == 2)
             {
                 F_esterni.Image = Properties.Resources.Es_Rosso;
+                Prezzo_carr.Text = "1270,00 EUR";
             }
             else if (comboColoCarr.SelectedIndex == 3)
             {
                 F_esterni.Image = Properties.Resources.Es_Grigio;
+                Prezzo_carr.Text = "1270,00 EUR";
             }
             else if (comboColoCarr.SelectedIndex == 4)
             {
                 F_esterni.Image = Properties.Resources.Es_Blu;
+                Prezzo_carr.Text = "5310,00 EUR";
             }
         }
 
@@ -162,10 +174,13 @@ namespace ProductConfig
             if (checkTelo.Checked)
             {
                 F_telo.Visible = true;
+                Prezzo_telo.Visible = true;
             }
             else
             {
                 F_telo.Visible = false;
+                Prezzo_telo.Visible = false;
+
             }
         }
 
@@ -174,22 +189,27 @@ namespace ProductConfig
             if (comboCerchi.SelectedIndex == 0)
             {
                 F_cerchi.Image = Properties.Resources.C_19_1;
+                Prezzo_cerchi.Text = "0,0 EUR";
             }
             else if (comboCerchi.SelectedIndex == 1)
             {
                 F_cerchi.Image = Properties.Resources.C_19_2;
+                Prezzo_cerchi.Text = "370,00 EUR";
             }
             else if (comboCerchi.SelectedIndex == 2)
             {
                 F_cerchi.Image = Properties.Resources.C_20;
+                Prezzo_cerchi.Text = "2120,00 EUR";
             }
             else if (comboCerchi.SelectedIndex == 3)
             {
                 F_cerchi.Image = Properties.Resources.C_21_1;
+                Prezzo_cerchi.Text = "4130,00 EUR";
             }
             else if (comboCerchi.SelectedIndex == 4)
             {
                 F_cerchi.Image = Properties.Resources.C_21_2;
+                Prezzo_cerchi.Text = "4230,00 EUR";
             }
         }
 
@@ -305,12 +325,6 @@ namespace ProductConfig
             {
                 F_finale.Image = Properties.Resources.Audi_blu4;
             }
-
         }
-
-
     }
-        
-            
-
 }
