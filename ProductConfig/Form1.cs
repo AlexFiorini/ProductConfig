@@ -205,103 +205,103 @@ namespace ProductConfig
 
         void loadF_finale()
         {
-            if(comboColoCarr.SelectedIndex == 0 && comboColoCarr.SelectedIndex == 0)    //Bianco
+            if(comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 0)    //Bianco
             {
                 F_finale.Image = Properties.Resources.Audi_Bianco;
             }
-            else if(comboColoCarr.SelectedIndex == 0 && comboColoCarr.SelectedIndex == 1)
+            else if(comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 1)
             {
                 F_finale.Image = Properties.Resources.Audi_Bianco2;
             }
-            else if (comboColoCarr.SelectedIndex == 0 && comboColoCarr.SelectedIndex == 2)
+            else if (comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 2)
             {
                 F_finale.Image = Properties.Resources.Audi_bianco3;
             }
-            else if (comboColoCarr.SelectedIndex == 0 && comboColoCarr.SelectedIndex == 3)
+            else if (comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 3)
             {
                 F_finale.Image = Properties.Resources.Audi_bianco4;
             }
-            else if (comboColoCarr.SelectedIndex == 0 && comboColoCarr.SelectedIndex == 4)
+            else if (comboColoCarr.SelectedIndex == 0 && comboCerchi.SelectedIndex == 4)
             {
                 F_finale.Image = Properties.Resources.Audi_bianco5;
             }
-            else if (comboColoCarr.SelectedIndex == 1 && comboColoCarr.SelectedIndex == 0) //Nero
+            else if (comboColoCarr.SelectedIndex == 1 && comboCerchi.SelectedIndex == 0) //Nero
             {
                 F_finale.Image = Properties.Resources.Audi_nera;
             }
-            else if (comboColoCarr.SelectedIndex == 1 && comboColoCarr.SelectedIndex == 1)
+            else if (comboColoCarr.SelectedIndex == 1 && comboCerchi.SelectedIndex == 1)
             {
                 F_finale.Image = Properties.Resources.Audi_nera1;
             }
-            else if (comboColoCarr.SelectedIndex == 1 && comboColoCarr.SelectedIndex == 2)
+            else if (comboColoCarr.SelectedIndex == 1 && comboCerchi.SelectedIndex == 2)
             {
                 F_finale.Image = Properties.Resources.Audi_nera2;
             }
-            else if (comboColoCarr.SelectedIndex == 1 && comboColoCarr.SelectedIndex == 3)
+            else if (comboColoCarr.SelectedIndex == 1 && comboCerchi.SelectedIndex == 3)
             {
                 F_finale.Image = Properties.Resources.Audi_nera3;
             }
-            else if (comboColoCarr.SelectedIndex == 1 && comboColoCarr.SelectedIndex == 4)
+            else if (comboColoCarr.SelectedIndex == 1 && comboCerchi.SelectedIndex == 4)
             {
                 F_finale.Image = Properties.Resources.Audi_nera4;
             }
-            else if (comboColoCarr.SelectedIndex == 2 && comboColoCarr.SelectedIndex == 0) //Rosso
+            else if (comboColoCarr.SelectedIndex == 2 && comboCerchi.SelectedIndex == 0) //Rosso
             {
                 F_finale.Image = Properties.Resources.Audi_rossa;
             }
-            else if (comboColoCarr.SelectedIndex == 2 && comboColoCarr.SelectedIndex == 1)
+            else if (comboColoCarr.SelectedIndex == 2 && comboCerchi.SelectedIndex == 1)
             {
                 F_finale.Image = Properties.Resources.Audi_rossa1;
             }
-            else if (comboColoCarr.SelectedIndex == 2 && comboColoCarr.SelectedIndex == 2)
+            else if (comboColoCarr.SelectedIndex == 2 && comboCerchi.SelectedIndex == 2)
             {
                 F_finale.Image = Properties.Resources.Audi_rossa2;
             }
-            else if (comboColoCarr.SelectedIndex == 2 && comboColoCarr.SelectedIndex == 3)
+            else if (comboColoCarr.SelectedIndex == 2 && comboCerchi.SelectedIndex == 3)
             {
                 F_finale.Image = Properties.Resources.Audi_rossa3;
             }
-            else if (comboColoCarr.SelectedIndex == 2 && comboColoCarr.SelectedIndex == 4)
+            else if (comboColoCarr.SelectedIndex == 2 && comboCerchi.SelectedIndex == 4)
             {
                 F_finale.Image = Properties.Resources.Audi_rossa4;
             }
-            else if (comboColoCarr.SelectedIndex == 3 && comboColoCarr.SelectedIndex == 0) //Grigia
+            else if (comboColoCarr.SelectedIndex == 3 && comboCerchi.SelectedIndex == 0) //Grigia
             {
                 F_finale.Image = Properties.Resources.Audi_grigia;
             }
-            else if (comboColoCarr.SelectedIndex == 3 && comboColoCarr.SelectedIndex == 1)
+            else if (comboColoCarr.SelectedIndex == 3 && comboCerchi.SelectedIndex == 1)
             {
                 F_finale.Image = Properties.Resources.Audi_grigia1;
             }
-            else if (comboColoCarr.SelectedIndex == 3 && comboColoCarr.SelectedIndex == 2)
+            else if (comboColoCarr.SelectedIndex == 3 && comboCerchi.SelectedIndex == 2)
             {
                 F_finale.Image = Properties.Resources.Audi_grigia2;
             }
-            else if (comboColoCarr.SelectedIndex == 3 && comboColoCarr.SelectedIndex == 3)
+            else if (comboColoCarr.SelectedIndex == 3 && comboCerchi.SelectedIndex == 3)
             {
                 F_finale.Image = Properties.Resources.Audi_grigia3;
             }
-            else if (comboColoCarr.SelectedIndex == 3 && comboColoCarr.SelectedIndex == 4)
+            else if (comboColoCarr.SelectedIndex == 3 && comboCerchi.SelectedIndex == 4)
             {
                 F_finale.Image = Properties.Resources.Audi_grigia4;
             }
-            else if (comboColoCarr.SelectedIndex == 4 && comboColoCarr.SelectedIndex == 0) //Blu
+            else if (comboColoCarr.SelectedIndex == 4 && comboCerchi.SelectedIndex == 0) //Blu
             {
                 F_finale.Image = Properties.Resources.Audi_Blu;
             }
-            else if (comboColoCarr.SelectedIndex == 4 && comboColoCarr.SelectedIndex == 1)
+            else if (comboColoCarr.SelectedIndex == 4 && comboCerchi.SelectedIndex == 1)
             {
                 F_finale.Image = Properties.Resources.Audi_blu1;
             }
-            else if (comboColoCarr.SelectedIndex == 4 && comboColoCarr.SelectedIndex == 2)
+            else if (comboColoCarr.SelectedIndex == 4 && comboCerchi.SelectedIndex == 2)
             {
                 F_finale.Image = Properties.Resources.Audi_blu2;
             }
-            else if (comboColoCarr.SelectedIndex == 4 && comboColoCarr.SelectedIndex == 3)
+            else if (comboColoCarr.SelectedIndex == 4 && comboCerchi.SelectedIndex == 3)
             {
                 F_finale.Image = Properties.Resources.Audi_blu3;
             }
-            else if (comboColoCarr.SelectedIndex == 4 && comboColoCarr.SelectedIndex == 4)
+            else if (comboColoCarr.SelectedIndex == 4 && comboCerchi.SelectedIndex == 4)
             {
                 F_finale.Image = Properties.Resources.Audi_blu4;
             }
